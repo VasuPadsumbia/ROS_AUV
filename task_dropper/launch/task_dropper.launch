@@ -1,0 +1,4 @@
+<launch>
+	<node name="dropper_server" pkg="task_dropper" type="dropper_server" respawn="true"  output="screen">
+	<node name="dropper_client" pkg="task_dropper" type="dropper_client" respawn="true"  output="screen"> 
+</launch>

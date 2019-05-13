@@ -1,0 +1,4 @@
+<launch>
+	<node name="line_server" pkg="task_line" type="line_server" respawn="true"  output="screen">
+	<node name="line_client" pkg="task_line" type="line_client" respawn="true"  output="screen"> 
+</launch>
